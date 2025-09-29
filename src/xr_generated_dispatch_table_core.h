@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2024, The Khronos Group Inc.
+// Copyright (c) 2017-2025 The Khronos Group Inc.
 // Copyright (c) 2017-2019, Valve Corporation
 // Copyright (c) 2017-2019, LunarG, Inc.
 
@@ -8,7 +8,7 @@
 //     See utility_source_generator.py for modifications
 // ************************************************************
 
-// Copyright (c) 2017-2024, The Khronos Group Inc.
+// Copyright (c) 2017-2025 The Khronos Group Inc.
 // Copyright (c) 2017-2019 Valve Corporation
 // Copyright (c) 2017-2019 LunarG, Inc.
 //
@@ -38,7 +38,7 @@
 extern "C" { 
 #endif
 // Generated dispatch table
-struct XrGeneratedDispatchTable {
+struct XrGeneratedDispatchTableCore {
 
     // ---- Core 1.0 commands
     PFN_xrGetInstanceProcAddr GetInstanceProcAddr;
@@ -112,7 +112,7 @@ struct XrGeneratedDispatchTable {
 
 
 // Prototype for dispatch table helper function
-void GeneratedXrPopulateDispatchTable(struct XrGeneratedDispatchTable *table,
+void GeneratedXrPopulateDispatchTableCore(struct XrGeneratedDispatchTableCore *table,
                                       XrInstance instance,
                                       PFN_xrGetInstanceProcAddr get_inst_proc_addr);
 

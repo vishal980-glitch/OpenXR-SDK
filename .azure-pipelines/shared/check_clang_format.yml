@@ -1,4 +1,4 @@
-# Copyright (c) 2019-2024, The Khronos Group Inc.
+# Copyright (c) 2019-2025 The Khronos Group Inc.
 # SPDX-License-Identifier: Apache-2.0
 
 jobs:
@@ -6,7 +6,7 @@ jobs:
     displayName: "clang-format"
     pool:
       vmImage: "ubuntu-latest"
-    container: khronosgroup/docker-images:openxr-sdk.20240412@sha256:e477137f8558565ac9173de8713a3e44d6d564ba042db9a20ff560eb4bfdeccc
+    container: khronosgroup/docker-images:openxr.20240924@sha256:3d595e68d21b2bba12cb7bbfa8cb135f66a2d9b97efeda6de3c6c8412163c4b7
 
     steps:
       - checkout: self
